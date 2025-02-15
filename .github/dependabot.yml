@@ -13,8 +13,8 @@ updates:
       - gallery.ecr.aws
 
 registries:
-  ecr:
+  gallery.ecr.aws:
     type: "docker-registry"
-    url: "gallery.ecr.aws"
+    url: "https://gallery.ecr.aws"
     username: "${{ secrets.ECR_USERNAME }}"
     password: "${{ secrets.ECR_PASSWORD }}"

@@ -1,1 +1,1 @@
-FROM public.ecr.aws/nginx/nginx:1-alpine3.21-slim
+FROM public.ecr.aws/lambda/python:3.12.2024.04.17.17

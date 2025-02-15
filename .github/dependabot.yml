@@ -10,11 +10,11 @@ updates:
     schedule:
       interval: "daily"
     registries:
-      - ecr
+      - gallery.ecr.aws
 
 registries:
   ecr:
     type: "docker-registry"
-    url: "https://public.ecr.aws"
+    url: "gallery.ecr.aws"
     username: "${{ secrets.ECR_USERNAME }}"
     password: "${{ secrets.ECR_PASSWORD }}"
